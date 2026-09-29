@@ -1,0 +1,8 @@
+{
+  "report": {"date": "2026-09-29", "windowStart": "2026-09-28T00:00:00Z", "windowEnd": "2026-09-29T00:00:00Z", "sections": [{"items": [{"links": {"aihot": "https://aihot.news/items/included"}}]}]},
+  "items": [
+    {"id": "included", "title": "Included article", "publishedAt": "2026-09-28T12:00:00Z", "selected": true, "links": {"aihot": "https://aihot.news/items/included"}},
+    {"id": "candidate", "title": "Selected but absent", "publishedAt": "2026-09-28T22:00:00Z", "selected": true, "links": {"aihot": "https://aihot.news/items/candidate"}},
+    {"id": "excluded", "title": "Not selected", "publishedAt": "2026-09-28T22:00:00Z", "selected": false, "links": {"aihot": "https://aihot.news/items/excluded"}}
+  ]
+}
