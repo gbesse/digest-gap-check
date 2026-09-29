@@ -12,6 +12,15 @@ python3 audit.py demo --lang es
 
 El ejemplo distingue un artículo incluido, un caso para revisar y un artículo no seleccionado.
 
+**Ejemplo de salida**
+
+```text
+Artículos seleccionados ausentes del boletín
+Ejemplo sin conexión; run usa la API pública de AIHOT.
+Casos para revisión editorial, no fallos de ingesta demostrados.
+candidate: Selected but absent — https://aihot.news/items/candidate
+```
+
 ## Proyectos cercanos
 
 - [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) — Sus API públicas de boletines y artículos son la integración real; sin afiliación.

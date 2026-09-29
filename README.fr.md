@@ -12,6 +12,15 @@ python3 audit.py demo --lang fr
 
 La fixture distingue un article inclus, un candidat à examiner et un article non sélectionné.
 
+**Exemple de sortie**
+
+```text
+Articles sélectionnés absents du bulletin
+Exemple hors ligne ; run utilise l'API publique AIHOT.
+Candidats à revoir, pas des omissions techniques prouvées.
+candidate: Selected but absent — https://aihot.news/items/candidate
+```
+
 ## Projets voisins
 
 - [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) — Ses API publiques de bulletins et d’articles constituent l’intégration réelle ; aucune affiliation.

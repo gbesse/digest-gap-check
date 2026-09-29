@@ -12,6 +12,15 @@ python3 audit.py demo --lang en
 
 The offline fixture distinguishes an included article, a review candidate and an unselected article.
 
+**Example output**
+
+```text
+Selected items absent from the daily report
+Offline fixture; run uses AIHOT's public API.
+Candidates for editorial review, not proven ingestion failures.
+candidate: Selected but absent — https://aihot.news/items/candidate
+```
+
 ## Related projects
 
 - [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) — Its published daily and items APIs are the live integration used here; there is no affiliation.
