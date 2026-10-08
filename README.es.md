@@ -46,3 +46,7 @@ python3 -m unittest discover -s tests -v
 ```
 
 Python 3.11+. Licencia MIT. La demo no requiere cuenta ni clave API.
+
+## Comparación de enlaces
+
+Un enlace del boletín con parámetros, fragmento o barra final sigue correspondiendo al mismo artículo. Una ruta anidada como `/items/id/comments` no cuenta como enlace individual. Ejecute la demo sin conexión para revisar los candidatos.
