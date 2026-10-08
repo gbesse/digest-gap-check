@@ -38,8 +38,11 @@ def collect_report_ids(report):
     for section in report.get("sections", []):
         for item in section.get("items", []):
             link = (item.get("links") or {}).get("aihot", "")
-            if "/items/" in link:
-                ids.add(link.rsplit("/items/", 1)[1].split("?", 1)[0].strip("/"))
+            path = urllib.parse.urlsplit(link).path.rstrip("/")
+            if "/items/" in path:
+                item_id = path.rsplit("/items/", 1)[1]
+                if item_id and "/" not in item_id:
+                    ids.add(urllib.parse.unquote(item_id))
     return ids
 
 

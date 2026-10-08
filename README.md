@@ -46,3 +46,7 @@ python3 -m unittest discover -s tests -v
 ```
 
 Python 3.11+. MIT. No account or API key is required for the demo.
+
+## Link matching
+
+Report links with a query, fragment or trailing slash still match the same item. A nested path such as `/items/id/comments` does not count as an individual item link. Run the offline demo to inspect candidate omissions.
