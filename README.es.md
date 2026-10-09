@@ -50,3 +50,7 @@ Python 3.11+. Licencia MIT. La demo no requiere cuenta ni clave API.
 ## Comparación de enlaces
 
 Un enlace del boletín con parámetros, fragmento o barra final sigue correspondiendo al mismo artículo. Una ruta anidada como `/items/id/comments` no cuenta como enlace individual. Ejecute la demo sin conexión para revisar los candidatos.
+
+## Comprobación de adopción
+
+[Pruebe un caso concreto y compruebe sus límites](examples/adoption-check.md).
