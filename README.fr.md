@@ -50,3 +50,7 @@ Python 3.11+. Licence MIT. La démo ne demande ni compte ni clé API.
 ## Correspondance des liens
 
 Un lien du bulletin avec paramètres, fragment ou barre finale correspond toujours au même article. Un chemin imbriqué comme `/items/id/comments` ne compte pas comme lien individuel. Exécutez la démo hors ligne pour examiner les candidats.
+
+## Contrôle d’adoption
+
+[Essayer un cas concret et vérifier ses limites](examples/adoption-check.md).
