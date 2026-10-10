@@ -40,3 +40,15 @@ FR : adaptez une copie de la fixture locale à cette situation, puis vérifiez l
 EN: adapt a copy of the local fixture to this situation, then check the behavior described above. Values are illustrative, not measured Jev output.
 
 ES: adapte una copia de la fixture local a esta situación y compruebe el comportamiento descrito arriba. Los valores son ilustrativos, no resultados Jev medidos.
+
+## Second cas · Second case · Segundo caso
+
+```text
+selected=true; item_url=/items/42; report_links=[]
+```
+
+**FR :** Un article sélectionné sans lien individuel dans le bulletin devient candidat à la revue. Ce constat ne prouve pas à lui seul un défaut d’ingestion.
+
+**EN:** A selected item with no individual link in the bulletin becomes a review candidate. That alone does not prove an ingestion failure.
+
+**ES:** Un elemento seleccionado sin enlace individual en el boletín pasa a revisión. Esto por sí solo no prueba un fallo de ingesta.
